@@ -53,7 +53,6 @@ internal abstract class DefaultTypeFactory : SealedClassesSource.TypeFactory {
         String::class -> ""
         Float::class -> 0f
         Long::class -> 0L
-        List::class -> emptyList<String>()
         else -> null
     }
 }
